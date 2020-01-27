@@ -1,0 +1,18 @@
+<%- include("header"); -%>
+         
+          <div class="box">
+              <h1><%= listTitle %>!</h1>
+              <div class="box-content">
+              <div id = "lists">
+                <% for(var i=0;i<listItems.length;i++){ %>
+                  <div class="mix"><input type="checkbox"><p><%=listItems[i]%></p></div>
+                <%}%>
+              </div>
+              <form id = "input-form" action="/" method="POST">
+                 <input type="text" name="todoItem" required ="required" 
+                 autocomplete="off" class = "input" placeholder="Add Todo">
+                 <button class = "add-btn"> + </button>
+              </form>
+             </div>
+             <%- include("footer");-%>
+          </div>

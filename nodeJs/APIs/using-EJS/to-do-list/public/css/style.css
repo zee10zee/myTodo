@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+
+body{
+    background: linear-gradient(25deg, rgb(216, 72, 216) 50%, pink 50%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white !important;
+    width: 80% !important;
+    margin: 20px auto !important;
+}
+
+
+.box{
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    color: #fff;
+   
+}
+
+.box h1  {
+   font-family: sans-serif;
+   font-size: 30px;
+   background: rgb(216, 72, 216);
+   width: 400px;
+   text-align: center;
+   border-radius: 10px;
+   margin: 0 auto;
+   padding: 15px 30px;
+}
+
+.box-content{
+    margin: 20px auto;
+    /* background: rgb(77, 189, 226); */
+    background: #fff;
+    color: #222;
+    width: 400px;
+    border-radius:4px;
+    overflow: hidden;
+}
+.box-content p  {
+    margin-left: 20px;
+    text-transform: capitalize;
+    text-align: left;
+    padding-top: 10px;
+    font-family: 'Montserrat' sans-serif;  
+    font-weight: 100;
+}
+
+
+
+.box-content #input-form{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+form{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mix{     /* this is the mix of input and buttons submit */ 
+    display: flex;
+    border-bottom: 1px solid rgb(187, 179, 179);
+    width: 100%;
+    font-size: 20px;
+    border-width: 100%;
+    padding-left: 30px;
+   
+}
+
+.box-content .mix input[type = "checkbox"]{
+    position: relative;
+    top: 16px;
+    left: auto;
+    width: 15px;
+    height: 15px;
+    background: #ccc;
+}
+
+.mix input[type='checkbox']:checked ~ p{
+   text-decoration: line-through;
+}
+ .box-content #input-form .input{
+     background: none;
+     border: none;
+     outline: none;
+     line-height: 30px;
+     width: 100%;
+     text-align: center;
+
+ }
+
+ .box-content #input-form .input:focus{
+     border-bottom: 1px solid #ccc;
+ }
+
+
+
+ .box-content #input-form .input::placeholder{
+     margin: 60px auto;
+     text-transform: capitalize;
+     font-family: 'Montserrat' sans-serif !important;
+     font-size: 20px;
+     font-weight: 100;
+ }
+
+ .box-content #input-form .add-btn{
+    background: none;
+    border: none;
+    outline: none;
+    margin-right: 10PX;
+    background: rgb(77, 189, 226);
+    font-size: 30px;
+    box-shadow: 2px 0px 10px 7px rgba(0,0,0,.1);
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0 12px;
+    cursor: pointer;
+  
+}
+
+
+
+
+
+ 
+ 
+
